@@ -1,0 +1,107 @@
+<!-- DEVELOPER: Lucicto D Selva, IS117-101, Spring 2022 --!>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cheap Eats</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <a class="navbar-brand" href="index.html">Cheap Eats</a>
+                <!-- Responsive Button for the smaller menu -->
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"  href="menu.html" id="navbardrop"
+                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Cuisines
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="recipes.html">Recipes</a>
+                                <a class="dropdown-item" href="pricepoints.html">Price Points</a>
+                                <!---<a class="dropdown-item" href="#">Link 3</a>
+                                    <a class="dropdown-item" href="#">Link 4</a> -->
+                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+            </nav>
+        <div class="container">
+          <div class="row">
+            <form action="">
+                <div class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" class="form-control" id="firstname"
+                           placeholder="First name" name="firstname">
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" class="form-control" id="lastname"
+                           placeholder="Last name" name="lastname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email"
+                           placeholder="Enter email" name="Recipe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Recipe:</label>
+                    <input type="email" class="form-control" id="email"
+                           placeholder="Please enter the ingredients and procedure for your dish" name="email">
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input"
+                               type="checkbox" name="subscribe"> Click if you want to subscribe and see new recipes.
+                    </label>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </row>
+</div>
+
+            <p> Everyone is welcome to follow our Social Media pages. You can also submit a recipe yourself and if it makes it through, we'll publish it!  </p>
+            <p> Our Social Media Handles for Instagram and Twitter are @CheapEats           <img src="images/instasnap.png" alt="Picture of instagram and twitter" width="250" height="125" style="vertical-align:middle"> </p>
+        </div>
+        <footer class="footer page-footer font-small " >
+            <div class="container">
+                <div class="row">
+                    <span class="text-danger">&copy; Lucicto D Selva 2022 |  Terms Of Use  |  Privacy Statement</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </script>
+
+</body>
+</html>

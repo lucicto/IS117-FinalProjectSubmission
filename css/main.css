@@ -1,0 +1,81 @@
+
+/*DEVELOPER: Lucicto D Selva, IS117-101, Fall Semester, 2022 */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightyellow;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+.card{
+    margin:25px 0 150px 0;
+    border-style: double;
+    border-width: thin;
+    border-color: blue;
+}
+
+.jumbotron-fluid{
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+}
+
+
+
+h1 {
+    margin: 50px 25px 50px;
+    font-size: 70px;
+}
+h1a {
+    margin: 70px 75px 50px;
+    font-size: 40px;
+}
+h2 {
+    margin: 50px 50px 50px;
+    font-size: 50px;
+}
+body{
+    background-color: #dfc2c4;
+}
+p {
+    margin: 50px 105px 50px;
+    font-size: 1.875em;
+}
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+}
+
+
+.row {margin: 0 -5px;}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.card {
+    margin:25px 0 150px 0;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
